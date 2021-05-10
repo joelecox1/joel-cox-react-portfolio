@@ -125,3 +125,91 @@ main {
   max-height: 400px;
   overflow: scroll;
 }
+
+/* Portfoilio Styles */
+
+.container {
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  height: 63vh;
+  width: 65vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 10px #60fff2;
+  box-shadow: 0 0 10px #60fff2;
+  text-shadow: 0 0 10px #60fff2;
+  /* padding: 10px; */
+  overflow: scroll;
+}
+
+.p-port {
+  margin: 15px;
+}
+
+.img-container {
+  margin-bottom: 50px;
+}
+
+.rockfit {
+  background-image: url('./assets/dashboard-screenshot.png');
+  height: 16em;
+  width: 30em;
+  background-size: cover;
+  border: 1px solid #60fff27c;
+}
+
+.port-btn {
+  margin: 20px;
+  color: #ffffff;
+}
+
+.crypto {
+  background-image: url('./assets/screenshot-crypto-stock.png');
+  height: 26em;
+  width: 30em;
+  background-size: cover;
+  border: 1px solid #60fff27c;
+}
+
+.html-portfolio {
+  background-image: url('./assets/screenshot-deployed-app.png');
+  height: 15em;
+  width: 30em;
+  background-size: cover;
+  border: 1px solid #60fff27c;
+}
+
+.dashboard {
+  background-image: url('./assets/weather-dashboard.png');
+  height: 15em;
+  width: 30em;
+  background-size: cover;
+  border: 1px solid #60fff27c;
+}
+
+.planner {
+  background-image: url('./assets/work-day-scheduler.png');
+  height: 15em;
+  width: 30em;
+  background-size: cover;
+  border: 1px solid #60fff27c;
+}
+
+.react-portfolio {
+  background-image: url('./assets/react-portfolio.png');
+  height: 14em;
+  width: 30em;
+  background-size: cover;
+  border: 1px solid #60fff27c;
+}
