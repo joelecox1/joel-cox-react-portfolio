@@ -308,4 +308,301 @@ button:hover {
   background: linear-gradient(#333333, #000000);
 }
 
+/* Media Queries */
+
+@media only screen and (max-width: 1270px) {
+  .portfolio {
+    width: 80vw;
+  }
+
+  form {
+    width: 60vw;
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .portfolio {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .headshot {
+    height: 350px;
+    width: 350px;
+    margin-right: 20px;
+  }
+
+  .about-p {
+    margin-left: 20px;
+  }
+
+  .portfolio {
+    width: 100vw;
+    border-radius: 0px;
+  }
+
+  button {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .headshot {
+    height: 320px;
+    width: 320px;
+    margin-right: 20px;
+  }
+
+  .about-p {
+    margin-left: 20px;
+  }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;     
+  }
+
+  .rockfit {
+    height: 11em;
+    width: 20em;
+    align-self: center;
+  }
+  
+  .port-btn {
+    margin: 12px;
+    align-self: center;
+  }
+  
+  .crypto {
+    height: 13em;
+    width: 15em;
+    align-self: center;
+  }
+  
+  .html-portfolio {
+    height: 11em;
+    width: 20em;
+    align-self: center;
+  }
+  
+  .dashboard {
+    height: 11em;
+    width: 20em;
+    align-self: center;
+  }
+  
+  .planner {
+    height: 11em;
+    width: 20em;
+    align-self: center;
+  }
+  
+  .react-portfolio {
+    height: 10em;
+    width: 20em;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 678px) {
+  ul {
+    font-size: 12px;
+  }
+
+  .headshot {
+    height: 280px;
+    width: 280px;
+    margin-right: 20px;
+  }
+
+  .about-p {
+    margin-left: 20px;
+  }
+
+  form {
+    width: 70vw;
+  }
+
+  .name-date {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 747px) {
+  .reach-out {
+    font-size: 30px;
+  }
+
+  .jc {
+    font-size: 18px;
+  }
+
+  label {
+    font-size: 20px;
+  }
+
+  input, textarea {
+    width: 300px;
+  }
+
+  textarea {
+    height: 100px;
+  }
+
+  ::placeholder {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .section-header {
+    font-size: 40px;
+  }
+
+  .about-p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-flex {
+    display: block;
+  }
+
+  .headshot, .about-p {
+    border-radius: 0px;
+    width: 100vw;
+    margin: 0px;
+  }
+
+  .headshot {
+    border-left: none;
+    border-right: none;
+    margin: 20px 0 50px 0;
+  }
+
+  .about-p {
+    height: 16vh;
+    max-width: 96.6vw;
+    padding: 10px ;
+    border-left: none;
+    border-right: none;
+  }
+
+  form {
+    height: 55vh;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  li {
+    font-size: 10px;
+  }
+
+  .proficiencies li {
+    font-size: 20px;
+  }
+
+  ::placeholder {
+    font-size: 15px;
+  }
+
+  .rockfit {
+    height: 8em;
+    width: 15em;
+  }
+  
+  .crypto {
+    height: 13em;
+    width: 15em;
+  }
+  
+  .html-portfolio {
+    height: 8em;
+    width: 15em;
+  }
+  
+  .dashboard {
+    height: 8em;
+    width: 15em;
+  }
+  
+  .planner {
+    height: 8em;
+    width: 15em;
+  }
+  
+  .react-portfolio {
+    height: 7em;
+    width: 15em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  li {
+    font-size: 9px;
+  }
+
+  .section-header {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .headshot {
+    height: 30vh;
+    border-radius: 0px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .rockfit {
+    height: 6em;
+    width: 13em;
+  }
+  
+  .crypto {
+    height: 12em;
+    width: 13em;
+    align-self: center;
+  }
+  
+  .html-portfolio {
+    height: 6em;
+    width: 13em;
+  }
+  
+  .dashboard {
+    height: 6em;
+    width: 13em;
+  }
+  
+  .planner {
+    height: 6em;
+    width: 13em;
+  }
+  
+  .react-portfolio {
+    height: 6em;
+    width: 13em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  li {
+    font-size: 2vw;
+  }
+}
+
+
 
