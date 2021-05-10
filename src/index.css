@@ -213,3 +213,25 @@ main {
   background-size: cover;
   border: 1px solid #60fff27c;
 }
+
+/* Resume Styles */
+
+.pro-header {
+  margin-top: 0px;
+}
+
+.proficiencies {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  padding: 0;
+}
+
+.tech {
+  font-size: 15px;
+}
+
+.resume-btn {
+  margin: 8px 0 0 0;
+}
+
