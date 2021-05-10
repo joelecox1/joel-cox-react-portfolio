@@ -235,3 +235,77 @@ main {
   margin: 8px 0 0 0;
 }
 
+/* Contact Styles */
+
+form {
+  text-align: center;
+  width: 40vw;
+  height: 45vh;
+  padding: 10px;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px #60fff2;
+  box-shadow: 0 0 10px #60fff2;
+  overflow: scroll;
+  text-shadow: 0 0 10px #60fff2;
+}
+
+.reach-out {
+  font-weight: 300;
+  margin: 15px 0 0 0;
+}
+
+.jc {
+  margin: 3px 0 0 0;
+}
+
+.name, .email, .message {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 20px 0;
+  text-shadow: 0 0 10px #60fff2;
+}
+
+input, textarea {
+  width: 25vw !important;
+  font-family: inherit;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #60fff2;
+  padding: 10px;
+  color: #3d3d3d !important;
+}
+
+textarea {
+  margin-right: 10px;
+  resize: vertical;
+  min-height: 50px;
+}
+
+.error {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+button {
+  font-family: inherit;
+  font-size: 20px;
+  background: linear-gradient(#000000, #333333);
+  color: #ffffffc5;
+  text-shadow: 2px 2px 2px #000000;
+  -webkit-box-shadow: 0 0 10px #60fff2;
+  box-shadow: 0 0 10px #60fff2;
+  border: none;
+  border-radius: 5px;
+  margin: 25px 0 10px 0;
+  padding: 5px 20px;
+}
+
+button:hover {
+  background: linear-gradient(#333333, #000000);
+}
+
+
