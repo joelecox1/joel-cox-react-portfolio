@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/joel-cox-react-portfolio/static/css/main.7f060c10.chunk.css",
-    "main.js": "/joel-cox-react-portfolio/static/js/main.cc09210b.chunk.js",
-    "main.js.map": "/joel-cox-react-portfolio/static/js/main.cc09210b.chunk.js.map",
-    "runtime-main.js": "/joel-cox-react-portfolio/static/js/runtime-main.317119ca.js",
-    "runtime-main.js.map": "/joel-cox-react-portfolio/static/js/runtime-main.317119ca.js.map",
-    "static/js/2.4e12da90.chunk.js": "/joel-cox-react-portfolio/static/js/2.4e12da90.chunk.js",
-    "static/js/2.4e12da90.chunk.js.map": "/joel-cox-react-portfolio/static/js/2.4e12da90.chunk.js.map",
-    "static/js/3.3145deb2.chunk.js": "/joel-cox-react-portfolio/static/js/3.3145deb2.chunk.js",
-    "static/js/3.3145deb2.chunk.js.map": "/joel-cox-react-portfolio/static/js/3.3145deb2.chunk.js.map",
+    "main.css": "/joel-cox-react-portfolio/static/css/main.7413075c.chunk.css",
+    "main.js": "/joel-cox-react-portfolio/static/js/main.3c4c3aef.chunk.js",
+    "main.js.map": "/joel-cox-react-portfolio/static/js/main.3c4c3aef.chunk.js.map",
+    "runtime-main.js": "/joel-cox-react-portfolio/static/js/runtime-main.396996e3.js",
+    "runtime-main.js.map": "/joel-cox-react-portfolio/static/js/runtime-main.396996e3.js.map",
+    "static/js/2.5e971a23.chunk.js": "/joel-cox-react-portfolio/static/js/2.5e971a23.chunk.js",
+    "static/js/2.5e971a23.chunk.js.map": "/joel-cox-react-portfolio/static/js/2.5e971a23.chunk.js.map",
+    "static/js/3.0778b298.chunk.js": "/joel-cox-react-portfolio/static/js/3.0778b298.chunk.js",
+    "static/js/3.0778b298.chunk.js.map": "/joel-cox-react-portfolio/static/js/3.0778b298.chunk.js.map",
     "index.html": "/joel-cox-react-portfolio/index.html",
-    "static/css/main.7f060c10.chunk.css.map": "/joel-cox-react-portfolio/static/css/main.7f060c10.chunk.css.map",
-    "static/js/2.4e12da90.chunk.js.LICENSE.txt": "/joel-cox-react-portfolio/static/js/2.4e12da90.chunk.js.LICENSE.txt",
+    "static/css/main.7413075c.chunk.css.map": "/joel-cox-react-portfolio/static/css/main.7413075c.chunk.css.map",
+    "static/js/2.5e971a23.chunk.js.LICENSE.txt": "/joel-cox-react-portfolio/static/js/2.5e971a23.chunk.js.LICENSE.txt",
     "static/media/index.css": "/joel-cox-react-portfolio/static/media/work-day-scheduler.8a5dfca3.png",
     "static/media/joel-cox-resume.4ed88174.pdf": "/joel-cox-react-portfolio/static/media/joel-cox-resume.4ed88174.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.317119ca.js",
-    "static/js/2.4e12da90.chunk.js",
-    "static/css/main.7f060c10.chunk.css",
-    "static/js/main.cc09210b.chunk.js"
+    "static/js/runtime-main.396996e3.js",
+    "static/js/2.5e971a23.chunk.js",
+    "static/css/main.7413075c.chunk.css",
+    "static/js/main.3c4c3aef.chunk.js"
   ]
 }
