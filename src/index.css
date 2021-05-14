@@ -76,7 +76,7 @@ main {
   color: #ffffff;
   width: 100vw;
   text-shadow: 3px 3px 3px #000000;
-  background-color: rgba(255, 255, 255, 0.171);
+  /* background-color: rgba(255, 255, 255, 0.171); */
   height: 84vh;
 }
 
@@ -603,6 +603,3 @@ button:hover {
     font-size: 2vw;
   }
 }
-
-
-

@@ -5,6 +5,10 @@ import Project from './components/Nav/Project';
 import Resume from './components/Nav/Resume';
 import Contact from './components/Nav/Contact';
 import Footer from './components/Footer';
+// eslint-disable-next-line
+import $ from 'jquery';
+// eslint-disable-next-line
+import ripples from 'jquery.ripples'
 
 function App() {
   const [currentPage, handlePageChange] = useState('about');
@@ -36,10 +40,33 @@ function App() {
   //   }
   // );
 
+  // window.VANTA.FOG({
+  //   el: "body",
+  //   mouseControls: true,
+  //   touchControls: true,
+  //   gyroControls: false,
+  //   minHeight: 200.00,
+  //   minWidth: 200.00,
+  //   highlightColor: 0x727272,
+  //   midtoneColor: 0x0,
+  //   lowlightColor: 0x595959,
+  //   baseColor: 0x0,
+  //   blurFactor: 0.47,
+  //   speed: 0.70,
+  //   zoom: 1.10
+  // })
+
+  $('body').ripples({
+    dropRadius: 30,
+    peturbance: 0.01,
+    resolution: 666
+  });
+
   return (
     <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      <main>
+      <main
+      >
         {renderPage()}
       </main>
       <Footer />
