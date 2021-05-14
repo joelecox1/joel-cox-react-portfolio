@@ -59,7 +59,7 @@ function App() {
   $('body').ripples({
     dropRadius: 30,
     peturbance: 0,
-    resolution: 666,
+    resolution: 1080,
   });
 
   return (
