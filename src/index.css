@@ -76,7 +76,7 @@ main {
   color: #ffffff;
   width: 100vw;
   text-shadow: 3px 3px 3px #000000;
-  background-color: rgba(255, 255, 255, 0.171);
+  /* background-color: rgba(255, 255, 255, 0.171); */
   height: 84vh;
 }
 
@@ -352,7 +352,7 @@ button:hover {
   body{
     overflow-y: scroll;
   }
-  
+
   .headshot {
     height: 320px;
     width: 320px;
