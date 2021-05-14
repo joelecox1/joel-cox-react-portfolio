@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 // eslint-disable-next-line
 import $ from 'jquery';
 // eslint-disable-next-line
-import ripples from 'jquery.ripples'
+import ripples from 'jquery.ripples';
 
 function App() {
   const [currentPage, handlePageChange] = useState('about');
