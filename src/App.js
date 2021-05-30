@@ -5,7 +5,6 @@ import Project from './components/Nav/Project';
 import Resume from './components/Nav/Resume';
 import Contact from './components/Nav/Contact';
 import Footer from './components/Footer';
-// eslint-disable-next-line
 import $ from 'jquery';
 // eslint-disable-next-line
 import ripples from 'jquery.ripples';
@@ -47,13 +46,13 @@ function App() {
   //   gyroControls: false,
   //   minHeight: 200.00,
   //   minWidth: 200.00,
-  //   highlightColor: 0x727272,
+  //   highlightColor: 0x939393,
   //   midtoneColor: 0x0,
-  //   lowlightColor: 0x595959,
+  //   lowlightColor: 0x0,
   //   baseColor: 0x0,
-  //   blurFactor: 0.47,
-  //   speed: 0.70,
-  //   zoom: 1.10
+  //   blurFactor: 0.46,
+  //   speed: 0.90,
+  //   zoom: 0.60
   // })
 
   $('body').ripples({

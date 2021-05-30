@@ -7,6 +7,24 @@ function Project() {
       <div className='container'>
         <div className='portfolio'>
           <div>
+          <div>
+              <p className='p-port'>Taroble Cards</p>
+              <div className='img-container'>
+                <div className='taroble'></div>
+                <p className='tech'>Technologies Used: MERN Stack, GraphQL, Apollo, React-Spring, SVGator</p>
+                <button className='port-btn'>
+                  <a href='https://github.com/MeaghanCampbell/taroble-cards'>
+                    Github Repo
+                  </a>
+                </button>
+                <button className='port-btn'>
+                  <a href='https://taroble-cards.herokuapp.com/'>
+                    Deployed App
+                  </a>
+                </button>
+              </div>
+            </div>
+
             <div>
               <p className='p-port'>Rock<em>fit</em></p>
               <div className='img-container'>

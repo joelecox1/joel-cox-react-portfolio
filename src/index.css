@@ -85,7 +85,14 @@ main {
   font-size: 50px;
   text-shadow: 0 0 10px #60fff2;
   margin: 30px 30px 0;
+  /* animation:rotate 7s linear none infinite;
+  animation-fill-mode:backwards;
+  animation-play-state:running; */
 }
+
+/* @keyframes rotate {
+  100% {transform:rotateX(360deg);}
+} */
 
 /* About Styles */
 
@@ -159,6 +166,14 @@ main {
 
 .img-container {
   margin-bottom: 50px;
+}
+
+.taroble {
+  background-image: url('./assets/taroble-cards.jpeg');
+  height: 16em;
+  width: 30em;
+  background-size: cover;
+  border: 1px solid #60fff27c;
 }
 
 .rockfit {
