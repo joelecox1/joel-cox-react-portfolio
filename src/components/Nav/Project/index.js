@@ -98,24 +98,6 @@ function Project() {
             </div>
 
             <div>
-              <p className='p-port'>Work Day Scheduler</p>
-              <div className='img-container'>
-                <div className='planner'></div>
-                <p className='tech'>Technologies Used: JavaScript, JQuery, Third Party API, Bootstrap, HTML</p>
-                <button className='port-btn'>
-                  <a href='https://github.com/joelecox1/work-day-scheduler'>
-                    Github Repo
-                  </a>
-                </button>
-                <button className='port-btn'>
-                  <a href='https://joelecox1.github.io/work-day-scheduler'>
-                    Deployed App
-                  </a>
-                </button>
-              </div>
-            </div>
-
-            <div>
               <p className='p-port'>React Built Professional Portfolio</p>
               <div className='img-container'>
                 <div className='react-portfolio'></div>

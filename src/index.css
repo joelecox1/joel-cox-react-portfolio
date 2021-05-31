@@ -17,6 +17,10 @@ body {
   overflow: hidden;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 /* Header/Footer Styles */
 
 header, footer {
@@ -133,6 +137,10 @@ main {
   overflow: scroll;
 }
 
+.about-p::-webkit-scrollbar {
+  display: none;
+}
+
 /* Portfoilio Styles */
 
 .container {
@@ -158,6 +166,10 @@ main {
   text-shadow: 0 0 10px #60fff2;
   /* padding: 10px; */
   overflow: scroll;
+}
+
+.portfolio::-webkit-scrollbar {
+  display: none;
 }
 
 .p-port {
@@ -187,6 +199,7 @@ main {
 .port-btn {
   margin: 20px;
   color: #ffffff;
+  width: 200px;
 }
 
 .crypto {
@@ -207,14 +220,6 @@ main {
 
 .dashboard {
   background-image: url('./assets/weather-dashboard.png');
-  height: 15em;
-  width: 30em;
-  background-size: cover;
-  border: 1px solid #60fff27c;
-}
-
-.planner {
-  background-image: url('./assets/work-day-scheduler.png');
   height: 15em;
   width: 30em;
   background-size: cover;
@@ -264,6 +269,10 @@ form {
   box-shadow: 0 0 10px #60fff2;
   overflow: scroll;
   text-shadow: 0 0 10px #60fff2;
+}
+
+form::-webkit-scrollbar {
+  display: none;
 }
 
 .reach-out {
@@ -383,6 +392,12 @@ button:hover {
     flex-direction: column;     
   }
 
+  .taroble {
+    height: 11em;
+    width: 20em;
+    align-self: center;
+  }
+
   .rockfit {
     height: 11em;
     width: 20em;
@@ -392,6 +407,7 @@ button:hover {
   .port-btn {
     margin: 12px;
     align-self: center;
+    width: 160px;
   }
   
   .crypto {
@@ -407,12 +423,6 @@ button:hover {
   }
   
   .dashboard {
-    height: 11em;
-    width: 20em;
-    align-self: center;
-  }
-  
-  .planner {
     height: 11em;
     width: 20em;
     align-self: center;
@@ -536,6 +546,11 @@ button:hover {
     font-size: 15px;
   }
 
+  .taroble {
+    height: 8em;
+    width: 15em;
+  }
+
   .rockfit {
     height: 8em;
     width: 15em;
@@ -552,11 +567,6 @@ button:hover {
   }
   
   .dashboard {
-    height: 8em;
-    width: 15em;
-  }
-  
-  .planner {
     height: 8em;
     width: 15em;
   }
@@ -585,6 +595,11 @@ button:hover {
 }
 
 @media only screen and (max-width: 390px) {
+  .taroble {
+    height: 6em;
+    width: 13em;
+  }
+  
   .rockfit {
     height: 6em;
     width: 13em;
@@ -602,11 +617,6 @@ button:hover {
   }
   
   .dashboard {
-    height: 6em;
-    width: 13em;
-  }
-  
-  .planner {
     height: 6em;
     width: 13em;
   }
